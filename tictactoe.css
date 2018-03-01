@@ -1,0 +1,93 @@
+.title{
+  text-align: center;
+  font-size: 3.2rem;
+  font-family: sans-serif;
+}
+.board{
+  display: none;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  margin-left:-100px;
+}
+area{
+  position: relative;
+  outline: none;
+  tooltip: none;
+}
+#myCanvas{
+  top: 3px;
+  left:1px;
+}
+img{
+  position: relative;
+}
+#newGame{
+  display: none;
+  text-align: center;
+  margin-top:10%;
+}
+/*
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#blink {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+*/
+.message {
+  background: rgba(255,255,255,.6);
+  width: 250px;
+  height: 250px;
+  z-index: 1000;
+  position: absolute;
+  display: none;
+  top: -15px;
+  left: -15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.start{
+   background: rgba(255,255,255,.6);
+  width: 250px;
+  height: 250px;
+  z-index: 1000;
+  position: absolute;
+  display: inline;
+  text-align: center;
+  margin-top:0%;
+  left: 50%;
+  margin-left:-120px;
+}
+.start p{
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+}
+.message p {
+  color: black;
+  text-align: center;
+  position: absolute;
+  font-size: 2.6rem;
+  left: 50px;
+  top: 50px;  
+  font-family:  sans-serif;
+}
+button{
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 10px;
+  margin: 10px ;
+  padding: 2% 7%;
+}
